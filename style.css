@@ -1,0 +1,97 @@
+body, html {
+  height: 100%;
+}
+
+.main {
+  min-height: 100%;
+  background-image: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,.3)), url(https://wallpaperaccess.com/full/972510.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+.fixed-top {
+  padding: 10px;
+}
+
+.fixed-top a {
+  color: #fff;
+  font-size: 20px;
+}
+
+.fixed-top i {
+  font-size: 30px;
+  color: #fff;
+}
+
+.content .col-6 {
+  padding: 10px;
+  color: white;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 5%;
+  font-family: 'Allura', cursive;
+}
+
+.content header {
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.content header img {
+  width: 100%;
+  padding: 10%;
+}
+
+.content header button {
+  width: auto;
+  height: auto;
+  border: none; 
+  background-color: transparent;
+  outline: none;
+  font-size: 50px;
+  color: #fff;
+  margin-top: -20px;
+}
+
+.content header p {
+  margin-top: -40px;
+}
+
+.about {
+  width: 100%;
+  height: 100%;
+  position: fixed; 
+  background-color: rgba(0,0,0,.8);
+  top:0;
+  color: #fff;
+  transition: .3s;
+  overflow: auto;
+  z-index: 999;
+}
+
+.about .container {
+  padding: 10%;
+  padding-top: 15%;
+}
+
+.about p {
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.about i {
+  color: white;
+  padding: 5%;
+  float: right;
+  font-size: 20px;
+  cursor: pointer;
+  
+}
